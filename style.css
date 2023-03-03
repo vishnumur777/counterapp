@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 0px;
+    padding: 0;
+    color: white;
+    font-size: 400px;
+}
+#sdf{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#clicker{
+    background-color: white;
+    margin: 10px;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 40px;
+}
+@media only screen and(max-width: 600px){
+    #sdf{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
